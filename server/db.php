@@ -10,7 +10,7 @@ $albums = [
     [
         'author' => "Queen",
         'genre' => "Pop",
-        'poster' => "https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/…uality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg",
+        'poster' => "https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg",
         'title' => "Live at Wembley 86",
         'year' => "1992",
     ],
@@ -59,7 +59,7 @@ $albums = [
     [
         'author' => "Dave Weckl",
         'genre' => "Jazz",
-        'poster' => "https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/…uality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg",
+        'poster' => "https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg",
         'title' => "Hard Wired",
         'year' => "1994",
     ],
