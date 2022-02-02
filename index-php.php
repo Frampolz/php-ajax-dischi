@@ -13,11 +13,22 @@
      //importo array 
     include __DIR__ . '/server/db.php';
     ?>
-
-    <ul>
         <?php foreach ($albums as $album) { ?>
-            <li><?= $album['author'] ?></li>
+            <div class="album-box">
+                <div class="album-cover">
+                    <img src="<?= $album['poster'] ?>" :alt="title" />
+                </div>
+                <div class="album-details">
+                    <h2><?= $album['title'] ?></h2>
+                    <h3><?= $album['author'] ?></h3>
+                    <h4><?= $album['year'] ?></h4>
+                </div>
+            </div>
        <?php } ?>
-    </ul>
+    
+
+    <template>
+  
+</template>
 </body>
 </html>
