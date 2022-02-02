@@ -7,3 +7,66 @@
 html {
     font-size: 100%;
 }
+
+header {
+  background-color: #2e3a46;
+}
+
+
+header img {
+  width: 3em;
+  margin: 0.5em 2em;
+}
+main {
+    background-color: #1e2d3b;
+    padding-bottom: 1.6em;
+}
+
+.album-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.album-box {
+    flex-basis: calc((100% / 5) - 2em);
+    background-color: #2e3a46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 2em 0 0 0;
+}
+
+.album-cover {
+        width: 150px;
+}
+
+img {
+      width: 100%;
+}
+
+.album-details {
+    text-align: center;
+    padding: 1em;
+}
+
+h2 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3,
+h4 {
+    color: grey;
+    font-size: 0.9em;
+ }
+
+ footer {
+     height: 50px;
+     text-align: center;
+     background-color: #2e3a46;
+     color: white;
+ }
