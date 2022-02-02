@@ -11,18 +11,26 @@
 </head>
 <body>
     <div id="app">
-         <div class="album-container">
-            <div v-for="(album, index) in albums" class="album-box">
-                <div class="album-cover">
-                    <img :src="album.poster" :alt="album.title" />
+         <header>
+        <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt=""/>
+        </header>
+        <main>
+            <div class="album-container">
+                <div v-for="(album, index) in albums" class="album-box">
+                    <div class="album-cover">
+                        <img :src="album.poster" :alt="album.title" />
+                    </div>
+                    <div class="album-details">
+                        <h2> {{album.title}} </h2>
+                        <h3>{{ album.author }}</h3>
+                        <h4>{{ album.year }}</h4>
+                    </div>
                 </div>
-                <div class="album-details">
-                    <h2> {{album.title}} </h2>
-                    <h3>{{ album.author }}</h3>
-                    <h4>{{ album.year }}</h4>
-                </div>
-            </div>
-        </div> 
+            </div> 
+        </main>
+        <footer>
+            &copy; copyright 2022
+        </footer>
         
     </div>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
