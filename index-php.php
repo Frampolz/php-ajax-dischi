@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+     //importo array 
+    include __DIR__ . '/server/db.php';
+    ?>
+
+    <ul>
+        <?php foreach ($albums as $album) { ?>
+            <li><?= $album['author'] ?></li>
+       <?php } ?>
+    </ul>
 </body>
 </html>
