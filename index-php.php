@@ -9,10 +9,18 @@
     <title>Document</title>
 </head>
 <body>
+ <header>
+    <img
+      src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png"
+      alt=""
+    />
+  </header>
+<main>
     <?php
      //importo array 
     include __DIR__ . '/server/db.php';
     ?>
+    <div class="album-container">
         <?php foreach ($albums as $album) { ?>
             <div class="album-box">
                 <div class="album-cover">
@@ -25,10 +33,10 @@
                 </div>
             </div>
        <?php } ?>
-    
-
-    <template>
-  
-</template>
+    </div>
+</main>
+<footer>
+    &copy; copyright 2022
+</footer>
 </body>
 </html>
